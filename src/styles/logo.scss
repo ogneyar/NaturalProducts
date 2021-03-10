@@ -1,11 +1,12 @@
 
 .box-logo {
-  position: absolute;
+  position: relative;
   // top: 30px;
-  left: 0;
-  width: 130px;
-  height: calc(100vh - 150px);
-  background: rgba(255, 251, 0, 0.836);
+  // left: 0;
+  // width: 130px;
+  // min-height: calc(100vh - 150px);
+  // min-height: 100vh;
+  // background: rgba(255, 251, 0, 0.836);
   
   .logo {    
     animation: Home-logo-spin infinite 20s linear;
