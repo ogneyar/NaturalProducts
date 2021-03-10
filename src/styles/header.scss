@@ -15,7 +15,9 @@ header {
         left: 5px;
         color: rgb(82, 82, 241);
         z-index: 100;
-font-size: 16px;
+@media (max-width: 600px) {
+font-size: 32px;
+} 
     }
 }
   
