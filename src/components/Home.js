@@ -1,11 +1,12 @@
 import React from 'react'
-import logo from '../../public/logo.png'
+import HomeLogo from './HomeLogo'
 
 const Home = () => {
     return (
         <div>
-            <h1>Приветы!</h1>
-            <img src={logo} />
+            
+            <HomeLogo />
+            
         </div>
     )
 }
