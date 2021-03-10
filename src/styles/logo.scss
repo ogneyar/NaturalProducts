@@ -1,0 +1,38 @@
+
+.box-logo {
+  position: absolute;
+  // top: 30px;
+  left: 0;
+  width: 130px;
+  height: calc(100vh - 150px);
+  background: rgba(255, 251, 0, 0.836);
+  
+  .logo {    
+    animation: Home-logo-spin infinite 20s linear;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    width: 250px;
+    border-radius: 50%;
+  }
+  .logo-fon {
+    position: absolute;
+    top: 22px;
+    left: 18px;
+    z-index: 90;
+    width:230px;
+    border-radius: 50%;
+    // border: 1px solid rgb(206, 27, 27);
+  }
+}
+
+
+@keyframes Home-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

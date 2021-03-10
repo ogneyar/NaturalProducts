@@ -1,9 +1,12 @@
 import Home from "./components/Home";
+// import {BrowserRouter} from 'react-dom'
 
 
 function App() {
   return (
-    <Home className="App" />
+    <div className="App">
+      <Home />
+    </div>
   );
 }
 

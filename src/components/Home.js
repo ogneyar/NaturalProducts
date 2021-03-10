@@ -1,13 +1,17 @@
 import React from 'react'
-import HomeLogo from './HomeLogo'
+import Footer from './Footer'
+import Header from './Header'
+import Logo from './Logo'
 
 const Home = () => {
     return (
-        <div>
-            
-            <HomeLogo />
-            
-        </div>
+    <div className="container-home">
+        <Header />
+
+        <Logo />
+
+        <Footer />
+    </div>
     )
 }
 
