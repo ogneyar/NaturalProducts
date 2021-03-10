@@ -1,0 +1,13 @@
+.container-home {
+    main {
+        display: flex;
+        position: absolute;
+        top:250px;
+        left: 150px;
+        z-index: 10000;
+        a {
+            padding: 10px;
+            text-decoration: none;
+        }
+    }
+}
