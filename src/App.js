@@ -1,10 +1,9 @@
+import Home from "./components/Home";
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>Приветы</h1>
-    </div>
+    <Home className="App" />
   );
 }
 
