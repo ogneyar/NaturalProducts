@@ -1,10 +1,10 @@
-import React from 'react'
-import Footer from './Footer'
-import Header from './Header'
-import Logo from './Logo'
-import SideBar from './SideBar'
-import '../styles/home.scss'
-import ekoMir from '../image/ekoMir.png'
+import React from 'react';
+import Footer from './Footer';
+import Header from './Header';
+import Logo from './Logo';
+import SideBar from './SideBar';
+import '../styles/home.scss';
+import ekoMir from '../image/ekoMir.png';
 
 
 const Home = () => {
@@ -26,7 +26,7 @@ const Home = () => {
         </main>
         <Footer />
     </div>
-    )
+    );
 }
 
-export default Home
+export default Home;
