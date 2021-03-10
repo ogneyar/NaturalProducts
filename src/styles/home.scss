@@ -10,7 +10,7 @@
         z-index: 2;
 
         padding-top: 260px;
-        margin-left: 50px;
+        margin-left: 60px;
 
         .main-img {
             img {
@@ -35,13 +35,14 @@
     .container-home {    
         .main {
             // left: 5px;
-            margin-left: 5px;
+            margin-left: 20px;
             .main-img {
                 img {
                     width: 100px;
                 }
             }
             .main-block {
+                margin-left: 20px;
                 a {
                     padding: 5px;
                 }
