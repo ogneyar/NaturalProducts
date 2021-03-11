@@ -1,12 +1,7 @@
+@import 'variables.scss';
 
 .box-logo {
   position: relative;
-  // top: 30px;
-  // left: 0;
-  // width: 130px;
-  // min-height: calc(100vh - 150px);
-  // min-height: 100vh;
-  // background: rgba(255, 251, 0, 0.836);
   
   .logo {    
     animation: Home-logo-spin infinite 20s linear;
@@ -24,7 +19,6 @@
     z-index: 90;
     width:230px;
     border-radius: 50%;
-    // border: 1px solid rgb(206, 27, 27);
   }
 }
 

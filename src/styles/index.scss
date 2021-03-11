@@ -1,8 +1,23 @@
+@import 'variables.scss';
+
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
 }
+body {
+    background-color: $Grey;
+    h1, h2, h3, h4, h5, h6 {
+        color: $Red;
+        // color: $Black;
+        text-shadow: 2px 2px 4px $Grey, -2px 2px 4px $Grey, 2px -2px 4px $Grey, -2px -2px 4px $Grey;
+    }
+    
+}
 a {
     text-decoration: none;
+    color: $Black;
+    &:hover {
+        opacity: 0.4;
+    }
 }

@@ -1,4 +1,6 @@
-.container-home {    
+@import 'variables.scss';
+
+.container-home {
     
     .main {
         min-height: calc(100vh - 150px);
@@ -20,6 +22,7 @@
         .main-block {
             display: flex;
             flex-direction: column;
+            margin-left: 20px;
             a {
                 padding: 10px;
                 // text-decoration: none;
@@ -32,7 +35,7 @@
     }
 }
 @media (max-width: 400px) {
-    .container-home {    
+    .container-home {
         .main {
             // left: 5px;
             margin-left: 10px;

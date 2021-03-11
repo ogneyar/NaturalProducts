@@ -1,4 +1,5 @@
 import Home from "./components/Home";
+// eslint-disable-next-line
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
 
