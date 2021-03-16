@@ -6,6 +6,8 @@
     flex-direction: column;
     padding-top: 260px;
 
+    
+
     .main-container {
         
         display: flex;
@@ -81,5 +83,17 @@
                 }
             }
         }
+    }
+}
+
+.main-textil {
+    margin-left: 100px;
+    p {
+        padding: 10px;
+        margin-top: 20px;
+    }
+    img {
+        width: 100px;
+        padding: 5px;
     }
 }

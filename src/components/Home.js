@@ -32,6 +32,23 @@ const Home = () => {
                 </div>
             </article>
 
+            <hr />
+
+            <article className="main-container">
+                <div className="main-textil">
+                    <p>Раздел Текстиль либо наша совместная либо лёгкая промышленность</p>
+
+                    <a href="images/textil1.jpg"><img src="images/textil1.jpg" alt="текстиль"/></a>
+                    <a href="images/textil2.jpg"><img src="images/textil2.jpg" alt="текстиль"/></a>
+                    <a href="images/textil3.jpg"><img src="images/textil3.jpg" alt="текстиль"/></a>
+                    <a href="images/textil4.jpg"><img src="images/textil4.jpg" alt="текстиль"/></a>
+                    <a href="images/textil5.jpg"><img src="images/textil5.jpg" alt="текстиль"/></a>
+                    <a href="images/textil6.jpg"><img src="images/textil6.jpg" alt="текстиль"/></a>
+                    <a href="images/textil7.jpg"><img src="images/textil7.jpg" alt="текстиль"/></a>
+                    <a href="images/textil8.jpg"><img src="images/textil8.jpg" alt="текстиль"/></a>
+                </div>
+            </article>
+
         </main>
 
         <Footer />
