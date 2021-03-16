@@ -14,7 +14,7 @@ const Home = () => {
         <Logo />
         <SideBar />
         <main className="main">
-            <article className="main-container">
+            <section className="main-container">
                 <div className="main-img">
                     <img src={ekoMir} alt="ekoMir" />
                 </div>
@@ -24,17 +24,17 @@ const Home = () => {
                     <a href="/EkoMir3.html">Прайс ЭкоМир Мази</a>
                     <a href="/EkoMir4.html">Прайс ЭкоМир Травы</a>
                 </div>
-            </article>
-            <article className="main-container">
+            </section>
+            <section className="main-container">
                 <div className="main-inline-block">
                     <a href="https://ДомКипрея.рус">🏡Дом Кипрея🌿</a>
                     <a href="/HouseKiprey1.html">продукция из т.к.🌱</a>
                 </div>
-            </article>
+            </section>
 
             <hr />
 
-            <article className="main-container">
+            <section className="main-container">
                 <div className="main-textil">
                     <p>Раздел Текстиль либо наша совместная либо лёгкая промышленность</p>
 
@@ -47,7 +47,7 @@ const Home = () => {
                     <a href="images/textil7.jpg"><img src="images/textil7.jpg" alt="текстиль"/></a>
                     <a href="images/textil8.jpg"><img src="images/textil8.jpg" alt="текстиль"/></a>
                 </div>
-            </article>
+            </section>
 
         </main>
 
