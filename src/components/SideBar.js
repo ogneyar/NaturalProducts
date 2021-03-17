@@ -6,10 +6,10 @@ const SideBar = () => {
         <div className="side-bar">
             <div className="commercial">
                 <p>Здесь</p>
-                <p>может</p>
-                <p>быть</p>
-                <p>Ваша</p>
-                <p>реклама</p>
+                <p>можно</p>
+                <p>описать</p>
+                <p>о чём</p>
+                <p>этот сайт</p>
             </div>
         </div>
     );

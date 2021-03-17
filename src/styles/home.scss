@@ -1,5 +1,9 @@
 @import 'variables.scss';
 
+.border {
+    border: 1px solid rgb(194, 194, 194);
+}
+
 .main {
     min-height: calc(100vh - 150px);
     display: flex;
@@ -18,44 +22,54 @@
         z-index: 2;
 
         
-        margin-left: 60px;
+        margin-left: 160px;
         margin-bottom: 30px;
 
         .main-img {
             img {
+                padding: 0;
+                margin:0;
                 width: 150px;
             }
         }
+        
         .main-block {
             display: flex;
             flex-direction: column;
-            margin-left: 20px;
-            a {
-                padding: 10px;
+            margin-left: 10px;
+
+            &__url {
+                margin: 10px;
             }
-            a:hover {
-                border: 1px solid $Black;
-                border-radius: 10px;
+            &__text {
+                margin: 10px;
             }
-        }
-        .main-inline-block {
-            display: flex;
-            flex-direction: row;
-            margin-left: 80px;
+
             a {
                 padding: 5px 10px;
-                // text-decoration: none;
-            }
-            a:hover {
-                border: 1px solid $Black;
-                border-radius: 10px;
-            }
-            a:first-child {
+                margin-bottom: 5px;
                 border: 1px solid $Black;
                 margin-right: 5px;
                 transition: 500ms all;
             }
+            a:hover {
+                border: 1px solid $Black;
+                border-radius: 10px;
+            }
         }
+        
+        .main-textil {
+            margin-left: 10px;
+            p {
+                padding: 10px;
+                margin-top: 20px;
+            }
+            img {
+                width: 100px;
+                padding: 5px;
+            }
+        }
+
     }
 }
 @media (max-width: 450px) {
@@ -75,25 +89,6 @@
                     padding: 5px;
                 }
             }
-            .main-inline-block {
-                margin-left: 0;
-                a:first-child {
-                    border: none;
-                    margin-right: 0;
-                }
-            }
         }
-    }
-}
-
-.main-textil {
-    margin-left: 100px;
-    p {
-        padding: 10px;
-        margin-top: 20px;
-    }
-    img {
-        width: 100px;
-        padding: 5px;
     }
 }
