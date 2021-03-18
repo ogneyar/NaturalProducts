@@ -25,6 +25,10 @@
         margin-left: 160px;
         margin-bottom: 30px;
 
+        &__title {
+            padding: 10px;
+        }
+
         .main-img {
             img {
                 padding: 0;
@@ -60,19 +64,22 @@
         
         .main-textil {
             margin-left: 10px;
-            p {
-                padding: 10px;
-                margin-top: 20px;
-            }
-            img {
-                width: 100px;
-                padding: 5px;
+
+            &__block {
+                h4 {
+                    padding: 10px;
+                    margin-top: 20px;
+                }
+                img {
+                    width: 100px;
+                    padding: 5px;
+                }
             }
         }
 
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 767px) {
     .main {
         .main-container {
             // left: 5px;
@@ -87,6 +94,11 @@
                 margin-left: 10px;
                 a {
                     padding: 5px;
+                }
+            }
+            .main-textil {
+                &__block {
+                    text-align: center;
                 }
             }
         }
