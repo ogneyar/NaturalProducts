@@ -29,19 +29,12 @@ const Home = () => {
                     <a href="https://ladaga.ru"><img className="border" src={ekoMir} alt="ekoMir" /></a>
                 </div>
                 <div className="main-block">
-
                     <div className="main-block__url">
-                        <a href="/EkoMir1.html">Продукция ladaga.ru</a>
+                        <a href="/pages/EkoMir1.htm">Продукция ladaga.ru</a>
                     </div>
                     <div className="main-block__text">
                         <p>Тут необходимо добавить описание.</p>
                     </div>
-
-                    {/* <a href="/pages/EkoMir1.html">Прайс ЭкоМир Чаи</a>
-                    <a href="/pages/EkoMir2.html">Прайс ЭкоМир Масла</a>
-                    <a href="/pages/EkoMir3.html">Прайс ЭкоМир Мази</a>
-                    <a href="/pages/EkoMir4.html">Прайс ЭкоМир Травы</a> */}
-
                 </div>
             </section>
             
