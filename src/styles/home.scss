@@ -61,21 +61,34 @@
                 border-radius: 10px;
             }
         }
-        
-        .main-textil {
-            margin-left: 10px;
 
-            &__block {
-                h4 {
-                    padding: 10px;
-                    margin-top: 20px;
-                }
-                img {
-                    width: 100px;
-                    padding: 5px;
-                }
+        .main-news, 
+        .main-textil {
+            margin: 10px;
+            h4 {
+                padding: 10px;
+                margin-top: 20px;
+            }
+            img {
+                width: 100px;
+                padding: 5px;
+            }
+            p {
+                padding: 5px;
             }
         }
+        
+        // .main-textil {
+        //     margin: 10px;
+        //     h4 {
+        //         padding: 10px;
+        //         margin-top: 20px;
+        //     }
+        //     img {
+        //         width: 100px;
+        //         padding: 5px;
+        //     }
+        // }
 
     }
 }
@@ -96,10 +109,9 @@
                     padding: 5px;
                 }
             }
+            .main-news, 
             .main-textil {
-                &__block {
-                    text-align: center;
-                }
+                text-align: center;
             }
         }
     }
