@@ -85,20 +85,30 @@ const Home = () => {
             <hr />
 
             <section className="main-container">
-                <div className="main-textil">
-                    <div className="main-textil__block">
-                        
-                        <h4>Ремесленные наРОДные пРОДукты из Технической Конопли</h4>
+                <div className="main-news">
+                    <h4>Новости ЛУБяного Рынка АгроКультур</h4>
 
-                        <a href="images/textil1.jpg"><img src="images/textil1.jpg" alt="текстиль"/></a>
-                        <a href="images/textil2.jpg"><img src="images/textil2.jpg" alt="текстиль"/></a>
-                        <a href="images/textil3.jpg"><img src="images/textil3.jpg" alt="текстиль"/></a>
-                        <a href="images/textil4.jpg"><img src="images/textil4.jpg" alt="текстиль"/></a>
-                        <a href="images/textil5.jpg"><img src="images/textil5.jpg" alt="текстиль"/></a>
-                        <a href="images/textil6.jpg"><img src="images/textil6.jpg" alt="текстиль"/></a>
-                        <a href="images/textil7.jpg"><img src="images/textil7.jpg" alt="текстиль"/></a>
-                        <a href="images/textil8.jpg"><img src="images/textil8.jpg" alt="текстиль"/></a>
-                    </div>
+                    <p>Бумажная мельница в Тайлово</p>
+                    <p>Создание мастерской "Бумажная мельница в Тайлово" проходит в рамках проекта для ечорских школьников "Льняная грамота". Этот проект получил поддержку от Фонда резидентских грантов и будет реализован в течение 2021 года. Занимаются этим проектом лена и Юрий Гуренко, одни из соучредителей информационно-просветительского проекта Льняная губерния".</p>
+                    <p>Цель проекта: открыть просветительскую мастерскую по созданию бумаги из льняных олокон для повышения интереса к традиционным ремеслам Псковской земли и развития кологической осознанности среди печорских школьников.</p>
+                    <p>Зима придержала нас своими последними снегопадами и ночными морозами. Но проект ачинает потихоньку осуществляться. Уже прибыли материалы для косметического ремонта умажной мастерской. Наши добрые помощники-волонтеры из Москвы, Санкт-Петербурга, урманска и Печор оказали посильную поддержку в подготовке здания к ремонтным работам. ришлось разобрать старую печь, но труба остается и присоединится к новой печи. ачинаем с заливки пола, а там и всё остальное...</p>
+                </div>
+            </section>
+
+            <hr />
+
+            <section className="main-container">
+                <div className="main-textil">                        
+                    <h4>Ремесленные наРОДные пРОДукты из Технической Конопли</h4>
+
+                    <a href="images/textil1.jpg"><img src="images/textil1.jpg" alt="текстиль"/></a>
+                    <a href="images/textil2.jpg"><img src="images/textil2.jpg" alt="текстиль"/></a>
+                    <a href="images/textil3.jpg"><img src="images/textil3.jpg" alt="текстиль"/></a>
+                    <a href="images/textil4.jpg"><img src="images/textil4.jpg" alt="текстиль"/></a>
+                    <a href="images/textil5.jpg"><img src="images/textil5.jpg" alt="текстиль"/></a>
+                    <a href="images/textil6.jpg"><img src="images/textil6.jpg" alt="текстиль"/></a>
+                    <a href="images/textil7.jpg"><img src="images/textil7.jpg" alt="текстиль"/></a>
+                    <a href="images/textil8.jpg"><img src="images/textil8.jpg" alt="текстиль"/></a>
                 </div>
             </section>
 
