@@ -101,14 +101,14 @@ const Home = () => {
                 <div className="main-textil">                        
                     <h4>Ремесленные наРОДные пРОДукты из Технической Конопли</h4>
 
-                    <a href="images/textil1.jpg"><img src="images/textil1.jpg" alt="текстиль"/></a>
-                    <a href="images/textil2.jpg"><img src="images/textil2.jpg" alt="текстиль"/></a>
-                    <a href="images/textil3.jpg"><img src="images/textil3.jpg" alt="текстиль"/></a>
-                    <a href="images/textil4.jpg"><img src="images/textil4.jpg" alt="текстиль"/></a>
-                    <a href="images/textil5.jpg"><img src="images/textil5.jpg" alt="текстиль"/></a>
-                    <a href="images/textil6.jpg"><img src="images/textil6.jpg" alt="текстиль"/></a>
-                    <a href="images/textil7.jpg"><img src="images/textil7.jpg" alt="текстиль"/></a>
-                    <a href="images/textil8.jpg"><img src="images/textil8.jpg" alt="текстиль"/></a>
+                    <a href="images/textil/textil1.jpg"><img src="images/textil/textil1.jpg" alt="текстиль"/></a>
+                    <a href="images/textil/textil2.jpg"><img src="images/textil/textil2.jpg" alt="текстиль"/></a>
+                    <a href="images/textil/textil3.jpg"><img src="images/textil/textil3.jpg" alt="текстиль"/></a>
+                    <a href="images/textil/textil4.jpg"><img src="images/textil/textil4.jpg" alt="текстиль"/></a>
+                    <a href="images/textil/textil5.jpg"><img src="images/textil/textil5.jpg" alt="текстиль"/></a>
+                    <a href="images/textil/textil6.jpg"><img src="images/textil/textil6.jpg" alt="текстиль"/></a>
+                    <a href="images/textil/textil7.jpg"><img src="images/textil/textil7.jpg" alt="текстиль"/></a>
+                    <a href="images/textil/textil8.jpg"><img src="images/textil/textil8.jpg" alt="текстиль"/></a>
                 </div>
             </section>
 
