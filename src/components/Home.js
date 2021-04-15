@@ -111,7 +111,18 @@ const Home = () => {
                     <a href="images/textil/textil8.jpg"><img src="images/textil/textil8.jpg" alt="текстиль"/></a>
                 </div>
             </section>
+           
 
+
+            <section className="main-container">
+                <div className="main-lar">         
+
+                    <h4>Нашъ пРОДуктовый ЛАРЬ</h4>
+
+                    <a href="images/tea.jpg"><img src="images/tea.jpg" alt="tea"/></a>
+                   
+                </div>
+            </section>
             
         </main>
 
